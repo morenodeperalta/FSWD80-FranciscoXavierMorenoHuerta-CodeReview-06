@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FSWD80-Francisco Xavier Moreno Huerta-CodeReview-06</title>
+     <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   	<!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/09dc99302b.js" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
+            <div class="container">
+                <h1 class="tittle1">Bolivian Secrets</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ascending.html">Ascending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="descending.html">Descending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- This div is just a test to confirm that my TS is workig  -->
+        <!-- <div class="main">
+	        TEST
+	    </div> -->
+        <!-- CARROUSEL  -->
+
+        <div class="col-lg-12">
+            <div class="container-fluid">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/bolivia33_fullcreen.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/bolivia34_fullcreen.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/bolivia35_fullcreen.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- END CARROUSEL  -->
+        <!-- CARDS BEGIN  -->
+        <div class="row">
+
+            <!-- in the DIVs with id Results 3,2,1 are imported the information of each Class located on main.ts -->
+            <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 m-2">
+            	<p class="row1 d-flex justify-content-end">Colors</p>
+            	
+            </div>	
+            <div id="result3" class="card-deck">
+			</div>
+
+			<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 m-2 ">
+            	<p class="row1 d-flex justify-content-begining">People</p>
+            	
+            </div>	
+            <div id="result2" class="card-deck">
+            </div>
+            
+			<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 m-2 ">
+            	<p class="row1 d-flex justify-content-end">Flavours</p>
+            	
+            </div>	
+            <div id="result1" class="card-deck">
+            </div>
+            
+            <!-- The Import from main.ts ENDS -->
+            <!-- ./END ROW of CARDS -->
+        </div>
+        	<!-- Footer Begins -->
+        <footer class=" row py-5 colorFooter">
+            <div class="container">
+                <h2 class="credits m-0 text-center text-white d-flex justify-content-around">FSWD80-Francisco Xavier Moreno Huerta-CodeReview-06
+                    </h2>
+            </div>
+        </footer>
+        <!-- Footer Ends -->
+        <!-- /.container -->
+    </div>
+	    <!-- JavaScript -->
+	    <!-- <script type="text/javascript" src="./js/main.js"></script> -->
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- TO ASK Why everytime i put the bootstrap link here i have problems with the info coming from JS?????? -->
+    <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     -->
+     <!-- JavaScript -->
+    <script type="text/javascript" src="../js/ascending.js"></script>
+</body>
+
+</html>
